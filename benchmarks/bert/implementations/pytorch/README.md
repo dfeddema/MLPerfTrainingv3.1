@@ -3,3 +3,4 @@
 * Nvidia GPU Operator
 * Node Feature Discovery Operator 
 * Local Storage Operator
+* CodeFlare Operator
