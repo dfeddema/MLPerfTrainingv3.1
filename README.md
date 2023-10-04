@@ -1,2 +1,2 @@
-# MLPerfTrainingv3.1
+# MLPerfTraining v3.1
 Code and Readme for MLPerf training v3.1 submission 
