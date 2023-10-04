@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod-bert
+  namespace: openshift-local-storage
+spec:
+  containers:
+    - name: mytestpod-bert
+      image: nikolovn79/bert_openshift3:latest
+      command: ["/bin/bash", "-ec", "tail -f /dev/null" ]
+      volumeMounts:
+      - mountPath: "/data"
+        name: dianepd3
+      - mountPath: /dev/shm
+        name: cache-volume
+      resources:
+        limits:
+          nvidia.com/gpu: 8
+          memory: 800Gi
+  volumes:
+    - name: dianepd3
+      persistentVolumeClaim:
+        claimName: delta-4125gs-pvc3
+    - emptyDir:
+        medium: Memory
+        sizeLimit: 50Gi
+      name: cache-volume
