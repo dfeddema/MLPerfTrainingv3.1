@@ -7,11 +7,11 @@
 *  Node Feature Discovery Operator
 *  Nvidia GPU Operator
 *  Local Storage Operator
-  1)  Create local storage namespace
-      "oc new-project openshift-local-storage"
-  2) Go to operator hub and search for “local storage” , click "install", 
-     Select Installation mode “A specific namespace on the cluster” and choose namespace “openshift-local-storage”. 
-     Do not change any other settings. Click "subscribe".
+    1)  Create local storage namespace
+    "oc new-project openshift-local-storage"
+    2) Go to operator hub and search for “local storage” , click "install", 
+    Select Installation mode “A specific namespace on the cluster” and choose namespace “openshift-local-storage”. 
+    Do not change any other settings. Click "subscribe".
 
 # Create PVs and PVCs for your training data
 
