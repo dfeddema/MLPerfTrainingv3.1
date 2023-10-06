@@ -10,17 +10,28 @@
 
 # Copy the Training data to the correct directories for each of the models: 
 
-bertBackup/
-checkpoint_dir/
-hdf5/
-packed_data/
-per_seqlen/
-per_seqlen_parts/
-phase1/
-phase2/
-results/
-undet3d/
-unet3dtraining/
+bertBackup/  
+
+checkpoint_dir/  
+
+hdf5/  
+
+packed_data/  
+
+per_seqlen/  
+
+per_seqlen_parts/  
+
+phase1/  
+
+phase2/  
+
+results/  
+
+undet3d/  
+
+unet3dtraining/  
+
 
 # Run each of the models using the yaml provided under benchmarks: 
 
