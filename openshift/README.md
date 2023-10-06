@@ -32,7 +32,7 @@ spec:
   volumeMode: Filesystem
   resources:
     requests:
-      storage: 7Gi
+      storage: 2980Gi
   storageClassName: local-sc
 ```
 
