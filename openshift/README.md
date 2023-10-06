@@ -1,7 +1,7 @@
 # Requirements:  
 *  [Install Openshift](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13/html/installing/index) (and operators listed below)
 *  8 Nvidia H100 GPUs
-*  7TB locally attached NVMe storage device
+*  3GB locally attached NVMe storage device
 
 # From the Openshift Console navigate to Operator Hub and install these Operators:
 *  Node Feature Discovery Operator
