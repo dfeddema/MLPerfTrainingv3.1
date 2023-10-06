@@ -5,6 +5,11 @@
 *  Nvidia GPU Operator
 *  Local Storage Operator 
 
-   
+#Copy the Training data to the correct directories: 
+
+#Run each of the models using the yaml provided under benchmarks: 
+
+
+
 
 
