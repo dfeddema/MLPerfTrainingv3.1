@@ -8,11 +8,31 @@
 *  Nvidia GPU Operator
 *  Local Storage Operator 
 
-# Copy the Training data to the correct directories: 
+# Copy the Training data to the correct directories for each of the models: 
 
-
+bertBackup/
+checkpoint_dir/
+hdf5/
+packed_data/
+per_seqlen/
+per_seqlen_parts/
+phase1/
+phase2/
+results/
+undet3d/
+unet3dtraining/
 
 # Run each of the models using the yaml provided under benchmarks: 
+
+for Bert:
+oc create -f pod-bert.yaml
+
+for resnet50:
+oc create -f pod-resnet50.yaml
+
+for 3d U-Net:
+oc create -f pod-unet3d.yaml 
+
 
 
 
