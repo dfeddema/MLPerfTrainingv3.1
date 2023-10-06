@@ -24,7 +24,7 @@ IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same 
 # Copy the Training data to the correct directories for each of the models: 
 ```
 /workspace/data/data/     
-                    |_ phase1                                   # checkpoint to start from (both tf1 and pytorch converted)    
+                    |_ phase1                                   # checkpoint to start from (pytorch converted)    
                     |_ phase2    
                     |_undet3d    
                      |_unet3dtraining    
