@@ -36,7 +36,7 @@ spec:
   storageClassName: local-sc
 ```
 
-Create the PVC using this command:
+Create the PVC:    
 ```oc create -f mypvc0.yaml```
 
 # Copy the Training data to the correct directories for each of the models: 
