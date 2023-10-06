@@ -41,28 +41,6 @@ IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same 
                               |_ hdf5_4320_shards_varlength_shuffled # shuffled and sharded data in hdf5 format variable length *used for training*    
 
 ```
-bertBackup/  
-
-checkpoint_dir/  
-
-hdf5/  
-
-packed_data/  
-
-per_seqlen/  
-
-per_seqlen_parts/  
-
-phase1/  
-
-phase2/  
-
-results/  
-
-undet3d/  
-
-unet3dtraining/  
-
 
 # Run each of the models using the yaml provided under benchmarks: 
 
