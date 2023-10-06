@@ -8,7 +8,7 @@
 *  Nvidia GPU Operator
 *  Local Storage Operator
 
-# Create PV and PVC for your training data
+# Create PVs and PVCs for your training data
 
 # Copy the Training data to the correct directories for each of the models: 
 
