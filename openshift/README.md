@@ -10,6 +10,11 @@
 
 # Create PVs and PVCs for your training data
 
+Local Storage Operator discovers the NVMe device and the other devices and creates PVs.
+
+IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same namespace where you will run your model. 
+
+
 # Copy the Training data to the correct directories for each of the models: 
 
 bertBackup/  
