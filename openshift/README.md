@@ -5,5 +5,4 @@
 
    
 
-# After the CodeFlare Operator is installed 
-Create an MCAD Instance by clicking “create instance” from the console or by creating this MCAD custom resource
+
