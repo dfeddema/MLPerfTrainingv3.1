@@ -6,7 +6,9 @@
 # Install these Operators from the Operator Hub
 *  Node Feature Discovery Operator
 *  Nvidia GPU Operator
-*  Local Storage Operator 
+*  Local Storage Operator
+
+# Create PV and PVC for your training data
 
 # Copy the Training data to the correct directories for each of the models: 
 
