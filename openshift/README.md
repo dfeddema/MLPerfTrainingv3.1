@@ -20,6 +20,23 @@ Local Storage Operator discovers the NVMe device and the other storage devices o
 Create a PVC for the PV that was automatically created for your locally attached NVMe drive (which will contain your training data)
 IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same namespace where you will run your model. 
 
+create a yaml file, mypvc0.yaml, for PVC: 
+```
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-pvc0
+spec:
+  accessModes:
+  - ReadWriteOnce
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 7Gi
+  storageClassName: local-sc
+```
+
+```oc create -f mypvc0.yaml```
 
 # Copy the Training data to the correct directories for each of the models: 
 ```
