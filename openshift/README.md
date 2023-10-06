@@ -23,6 +23,24 @@ IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same 
 
 # Copy the Training data to the correct directories for each of the models: 
 
+/workspace/data/data/   
+                     |_ phase1                                   # checkpoint to start from (both tf1 and pytorch converted)
+                     |_ phase2
+                     |_undet3d
+                     |_unet3dtraining
+                     |_ phase2
+                     |results
+                     |_ packed_data
+                     |_hdf5  
+                           |_ eval                               # evaluation chunks in binary hdf5 format fixed length (not used in training, can delete after data   preparation)  
+                           |_ eval_varlength                     # evaluation chunks in binary hdf5 format variable length *used for training*
+                           |_ training                           # 500 chunks in binary hdf5 format 
+                           |_ training_4320                      # 
+                              |_ hdf5_4320_shards_uncompressed   # sharded data in hdf5 format fixed length (not used in training, can delete after data   preparation)
+                              |_ hdf5_4320_shards_varlength      # sharded data in hdf5 format variable length *used for training*
+                              |_ hdf5_4320_shards_varlength_shuffled # shuffled and sharded data in hdf5 format variable length *used for training*
+
+
 bertBackup/  
 
 checkpoint_dir/  
