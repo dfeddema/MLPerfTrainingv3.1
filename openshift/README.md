@@ -13,7 +13,7 @@
     Select Installation mode “A specific namespace on the cluster” and choose namespace “openshift-local-storage”. 
     Do not change any other settings. Click "subscribe".
 
-# Create PVs and PVCs for your training data
+# Create Permanent Volumes (PVs) and Permanent Volume Claims (PVCs) for your training data
 
 Local Storage Operator discovers the NVMe device and the other storage devices on your server and creates PVs for each of them.
 
