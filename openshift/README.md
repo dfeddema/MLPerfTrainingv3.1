@@ -3,7 +3,7 @@
 *  8 Nvidia H100 GPUs
 *  7TB locally attached NVME
 
-# Install these Operators from the Operator Hub
+# From the Openshift Console navigate to the Operator Hub and install these Operators:
 *  Node Feature Discovery Operator
 *  Nvidia GPU Operator
 *  Local Storage Operator
