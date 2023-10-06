@@ -9,7 +9,7 @@
 *  Local Storage Operator
     1)  Create local storage namespace
     "oc new-project openshift-local-storage"
-    2) Go to operator hub and search for “local storage” , click "install", 
+    2) Go to operator hub and search for “local storage operator” , click "install", 
     Select Installation mode “A specific namespace on the cluster” and choose namespace “openshift-local-storage”. 
     Do not change any other settings. Click "subscribe".
 
