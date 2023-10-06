@@ -14,6 +14,8 @@ Local Storage Operator discovers the NVMe device and the other devices and creat
 
 IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same namespace where you will run your model. 
 
+Create a PVC for the PV that was automatically created for your locally attached NVMe drive (which will contain your training data)
+
 
 # Copy the Training data to the correct directories for each of the models: 
 
