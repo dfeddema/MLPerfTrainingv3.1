@@ -41,14 +41,14 @@ spec:
 # Copy the Training data to the correct directories for each of the models: 
 ```
 /workspace/data/data/     
-                    |_ phase1                                   # checkpoint to start from (pytorch converted)    
+                    |_ phase1                                   # bert checkpoint to start from (pytorch converted)  
                     |_ phase2    
-                    |_undet3d    
-                     |_unet3dtraining    
+                    |_undet3d                                  
+                     |_unet3dtraining                           # Unet3d training Data
                      |_ phase2    
                      |results    
-                     |_ packed_data    
-                     |_hdf5  
+                     |_ packed_data                              # bert training data   
+                     |_hdf5                                      # bert training data 
                            |_ eval                               # evaluation chunks in binary hdf5 format fixed length (not used in training, can delete after data preparation)      
                            |_ eval_varlength                     # evaluation chunks in binary hdf5 format variable length *used for training*    
                            |_ training                           # 500 chunks in binary hdf5 format     
