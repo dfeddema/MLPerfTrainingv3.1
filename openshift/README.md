@@ -10,7 +10,7 @@
 
 # Create PVs and PVCs for your training data
 
-Local Storage Operator discovers the NVMe device and the other devices and creates PVs.
+Local Storage Operator discovers the NVMe device and the other devices and creates PVs for each of them.
 
 IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same namespace where you will run your model. 
 
