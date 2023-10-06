@@ -17,7 +17,7 @@
 
 Local Storage Operator discovers the NVMe device and the other storage devices on your server and creates PVs for each of them.
 
-Create a PVC for the PV that was automatically created for your locally attached NVMe drive (which will contain your training data)
+Now, create a PVC for the PV that was automatically created for your locally attached NVMe drive (which will contain your training data)
 IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same namespace where you will run your model. 
 
 create a yaml file for the PVC, and save it as mypvc0.yaml: 
