@@ -2,7 +2,7 @@
 * Node Feature Discovery Operator
 *  Nvidia GPU Operator
 *  Local Storage Operator 
-*  CodeFlare Operator 
+
    
 
 # After the CodeFlare Operator is installed 
