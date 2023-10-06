@@ -15,7 +15,7 @@
 
 # Create Permanent Volumes (PVs) and Permanent Volume Claims (PVCs) for your training data
 
-Local Storage Operator discovers the NVMe device and the other storage devices on your server and creates PVs for each of them.
+Local Storage Operator will discover your NVMe device and the other storage devices on your server and create PVs for each of them.
 
 Now, create a PVC for the PV that was automatically created for your locally attached NVMe drive (which will contain your training data)
 IMPORTANT: PVCs are namespaced - PVs are not. Make sure your PVC is in the same namespace where you will run your model. 
